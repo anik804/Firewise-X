@@ -1,0 +1,135 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	PSI
+Term Source File	http://data.bioontology.org/ontologies/EFO	https://psi.nasa.gov/
+Term Source Version	132	1.0
+Term Source Description	Experimental Factor Ontology	User defined terms
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	PSI-25
+Study Title	Burning and Suppression of Solids - II
+Study Description	
+Study Submission Date	31-Dec-2022
+Study Public Release Date	31-Dec-2022
+Study File Name	s_PSI-25.txt
+Comment[Acknowledgments]	
+Comment[Approach]	To summarize, BASS-II's approach, microgravity combustion tests were performed aboard the International Space Station. Active crew support for real-time “lab partner” operations. The wind tunnel was installed in the Microgravity Science Glovebox which supplied power, imaging, and a level of containment. Fuel samples were mounted inside a small wind tunnel which could impose airflow speeds up to 40 cm/s. Main variables are airflow speed and oxygen concentration (oxygen varied below 21% by adding nitrogen). Flame appearance, flame growth, and spread rates were determined in both the opposed and concurrent flow.
+Comment[DOI]	10.60555/4qc4-de67
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Hardware]	Microgravity Science Glovebox (MSG)
+Comment[Experiment Hardware Link]	https://www1.grc.nasa.gov/space/iss-research/msg/
+Comment[Flight Platform]	International Space Station (ISS)
+Comment[Funding]	
+Comment[Hypothesis]	"BASS–II tests the hypothesis that materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity with other conditions being identical (pressure, O2
+concentration, temperature, etc.). NASA tests and controls materials from a flammability perspective using an upward burning test in normal gravity, which is considered to be the worst-case geometry for
+flammability of the material on Earth. However, it may not be conservative for flammability in space. Testing at constant O2 mole fractions permits studying flame spread and extinction at low and high flow speed. We are interested in finding the fundamental limit for a given material."
+Comment[Identifiers]	
+Comment[Investigation Acronym]	BASS-II
+Comment[Investigation End Date]	12-31-2022
+Comment[Investigation Start Date]	01-01-2010
+Comment[Managing NASA Center]	Glenn Research Center (GRC)
+Comment[Mission End]	
+Comment[Mission Link]	
+Comment[Mission Name]	
+Comment[Mission Start]	
+Comment[Objective]	"BASS-II results contribute to the combustion computational models used in the design of fire detection and suppression systems in microgravity and on Earth.
+Objectives Include:
+  1) Study the ignition, flame growth, flame spread, and extinction limits for solid fuels burning in low-velocity forced flows in microgravity.
+  2) Begin to bridge the gap between the normal gravity NASA-STD-6001 Test #1 method, ground-based microgravity tests, and actual material flammability in microgravity.
+  3) Provide SoFIE PIs with preliminary data to refine Science Requirements.
+  4)  Practical, realistic (thicker) fuels in typical geometries will be examined, including slabs, cylinders, and spherical sections.
+
+The primary variables include:
+     • Forced flow velocity (speed and direction)
+     • Ambient oxygen concentration (via working volume nitrogen vitiation)
+     • Sample geometry (rods, spherical section, slabs, films, and fabric sheets"
+Comment[Project Identifier]	
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Microgravity Investigation
+Comment[Proposal Title]	
+Comment[Research Area]	Combustion Science
+Comment[Research Impacts]	A primary goal of BASS-II is improved spacecraft fire safety, improved understanding of combustion in space and how to avoid it. If you’re on a mission far from Earth, a fire can be catastrophic. BASS-II helps engineers select the safest materials and improve firefighting methods on future space missions. In outer space, fuels burn as oval balls rather than with an upward pointed cone flame as they do on Earth. This simpler combustion process enables researchers to evaluate computer models of fuel burning. These models can then be used to more accurately study flames on Earth, such as in wildfires, building fires, energy recapture from waste recycling, and other combustion problems.
+Comment[Space Program]	National Aeronautics and Space Administration (NASA)
+Comment[Study Grant Number]	
+Comment[SubResearch Area]	Spacecraft Fire Safety
+STUDY DESIGN DESCRIPTORS
+Study Design Type	Flame Spread	Solid Fuels	extinction limits	Forced Flow Velocity	MSG	BASS	Fire Suppression	Fire Safety
+Study Design Type Term Accession Number	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/
+Study Design Type Term Source REF	PSI	PSI	PSI	PSI	PSI	PSI	PSI	PSI
+STUDY PUBLICATIONS
+Study PubMed ID																	
+Study Publication DOI	10.1016/j.combustflame.2017.03.001	10.1016/j.proci.2014.05.093	10.1016/j.firesaf.2015.11.011	10.1016/j.combustflame.2015.10.023	10.1016/j.proci.2014.06.125				10.1016/j.proci.2016.06.025	10.1016/j.proci.2016.06.028	10.2514/6.2012-3493			10.1511/2016.118.44			
+Study Publication Author List	Olson Sandra L., Ferkul Paul V.	Bhattacharjee Subrata, Paolini Christopher, Tran Wynn, Villaraza Jeanie Ray, Takahashi Shuhei	Bhattacharjee Subrata, Laue Matthew, Carmignani Luca, Ferkul Paul, Olson Sandra	Bhattacharjee Subrata, Simsek Aslihan, Olson Sandra, Ferkul Paul	Bhattacharjee Subrata, Tran Wynn, Laue Matthew, Paolini Christopher, Nakamura Yuji	SL Olson, PV Ferkul, S Bhattacharjee, FJ Miller, C Fernandez-Pello, S Link, JS Tien, I Wichman	TJ Shah, FJ Miller, S Olson, I Wichman	X Zhao, JS Tien, PV Ferkul, S. Olson	Bhattacharjee Subrata, Simsek Aslihan, Miller Fletcher, Olson Sandra, Ferkul Paul	Zhao Xiaoyang, Liao Ya-Ting T., Johnston Michael C., T'ien James S., Ferkul Paul V., Olson Sandra L.	Pepper Jacob, Miller Fletcher, Olson Sandra, Wichman Indrek	J Marcum, S Olson, P Ferkul	JW Marcum, SL Olson, PV Ferkul	Hariharan Ashwin, Miller Fletcher, Olson Sandra, Wichman Indrek	SL Olson, PV Ferkul	G Bornand, G Sullivan, T Shah, F Miller	SL Olson, PV Ferkul, S Bhattacharjee, FJ Miller, AC Fernandez-Pello, JS Tien
+Study Publication Title	Microgravity flammability boundary for PMMA rods in axial stagnation flow: Experimental results and energy balance analyses	Temperature and CO2 fields of a downward spreading flame over thin cellulose: A comparison of experimental and computational results	Opposed-flow flame spread: A comparison of microgravity and normal gravity experiments to establish the thermal regime	The critical flow velocity for radiative extinction in opposed-flow flame spread in a microgravity environment: A comparison of experimental, computational, and theoretical results	Experimental validation of a correlation capturing the boundary layer effect on spread rate in the kinetic regime of opposed-flow flame spread	Results from on-board CSA-CP and CDM Sensor Readings during the Burning and Suppression of Solids - II (BASS-II) Experiment in the Microgravity Science Glovebox (MSG)	Modeling and Analysis of Intermediate Thickness PMMA Sheets Burning in Microgravity Opposed Flow	Concurrent flame growth, spread and extinction over composite fabric samples in low speed purely forced flow in microgravity	Radiative, thermal, and kinetic regimes of opposed-flow flame spread: A comparison between experiment and theory	Concurrent flame growth, spread, and quenching over composite fabric samples in low speed purely forced flow in microgravity	A Study of the Effectiveness of a Narrow Channel Apparatus in Simulating Microgravity Flame Spread over Thin Fuels	BASS-II Summary Report	Correlation of normal gravity mixed convection blowoff limits with microgravity forced flow blowoff limits	Fire in Microgravity	Microgravity Flammability of PMMA Rods in Concurrent Flow	Using a Narrow Channel Apparatus to Study Thermally-Intermediate Fuel Combustion in a Simulated 0g Environment	Burning and Suppression of Solids – II Fire Safety Investigation for the Microgravity Science Glovebox
+Study Publication Status	published	published	published	published	published	published	published	published	published	published	published	published	published	published	published	published	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO		EFO	EFO	EFO	EFO	EFO		EFO			EFO
+Comment[Study Publication Link]	http://dx.doi.org/10.1016/j.combustflame.2017.03.001	http://dx.doi.org/10.1016/j.proci.2014.05.093	http://dx.doi.org/10.1016/j.firesaf.2015.11.011	http://dx.doi.org/10.1016/j.combustflame.2015.10.023	http://dx.doi.org/10.1016/j.proci.2014.06.125	https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20150019858.pdf	https://www.researchgate.net/publication/281871773_Modeling_and_Analysis_of_Intermediate_Thickness_PMMA_Sheets_Burning_in_Microgravity_Opposed_Flow	https://www.researchgate.net/publication/280234658_Concurrent_flame_growth_spread_and_extinction_over_composite_fabric_samples_in_low_speed_purely_forced_flow_in_microgravity	http://dx.doi.org/10.1016/j.proci.2016.06.025	http://dx.doi.org/10.1016/j.proci.2016.06.028	http://dx.doi.org/10.2514/6.2012-3493	https://www.researchgate.net/publication/355545976_TM-20210011385_BASS-II_final_report	https://ntrs.nasa.gov/search.jsp?R=20160012691	http://dx.doi.org/10.1511/2016.118.44	https://www.researchgate.net/publication/280234405_Microgravity_Flammability_of_PMMA_Rods_in_Concurrent_Flow	https://asgsr.org/index.php/presentation-abstracts-10-25-2014	https://www.researchgate.net/publication/265684820_Burning_and_Suppression_of_Solids_-_II_Fire_Safety_Investigation_for_the_Microgravity_Science_Glovebox
+STUDY FACTORS
+Study Factor Name
+Study Factor Type
+Study Factor Type Term Accession Number
+Study Factor Type Term Source REF
+STUDY ASSAYS
+Study Assay File Name
+Study Assay Measurement Type
+Study Assay Measurement Type Term Accession Number
+Study Assay Measurement Type Term Source REF
+Study Assay Technology Type
+Study Assay Technology Type Term Accession Number
+Study Assay Technology Type Term Source REF
+Study Assay Technology Platform
+STUDY PROTOCOLS
+Study Protocol Name
+Study Protocol Type
+Study Protocol Type Term Accession Number
+Study Protocol Type Term Source REF
+Study Protocol Description
+Study Protocol URI
+Study Protocol Version
+Study Protocol Parameters Name
+Study Protocol Parameters Name Term Accession Number
+Study Protocol Parameters Name Term Source REF
+Study Protocol Components Name
+Study Protocol Components Type
+Study Protocol Components Type Term Accession Number
+Study Protocol Components Type Term Source REF
+STUDY CONTACTS
+Study Person Last Name	Ferkul	Fernandez-Pello	Miller	T'ien	Bhattachjee
+Study Person First Name	Paul	Carlos	Fletcher J.	James	Subrata
+Study Person Mid Initials					
+Study Person Email	paul.ferkul@nasa.gov	ferpello@me.berkeley.edu	fmiller@mail.sdsu.edu	jst@case.edu	sbhattacharjee@sdsu.edu
+Study Person Phone					
+Study Person Fax					
+Study Person Address					
+Study Person Affiliation				Case Western University	San Diego State University
+Study Person Roles	Co-Investigator (Co-I)	Co-Investigator (Co-I)	Co-Investigator (Co-I)	Co-Investigator (Co-I)	Co-Investigator (Co-I)
+Study Person Roles Term Accession Number	https://www.psi.nasa.gov	https://www.psi.nasa.gov	https://www.psi.nasa.gov	Co-Investigator (Co-I)	Co-Investigator (Co-I)
+Study Person Roles Term Source REF					
+Comment[Study Person REF]					
