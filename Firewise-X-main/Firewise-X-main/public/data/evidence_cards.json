@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ev_bhatt_2015",
+    "title": "The Critical Flow Velocity for Radiative Extinction in Opposed-Flow Flame Spread in Microgravity",
+    "authors": "Subrata Bhattacharjee, Aslihan Simsek, Sandra L. Olson, Paul V. Ferkul",
+    "journal": "Combustion and Flame, Vol. 163, pp. 474-482",
+    "year": 2015,
+    "doi": "10.1016/j.combustflame.2015.10.023",
+    "url": "https://doi.org/10.1016/j.combustflame.2015.10.023",
+    "category": "Extinction Boundary",
+    "key_finding": "Identified the lower critical flow velocity limit below which flames extinguish due to radiative heat loss exceeding chemical heat generation when convective oxygen transport diminishes in microgravity.",
+    "supports": "Confirms that stopping airflow in microgravity leads directly to flame extinction for thin PMMA fuels (directly validated by BASS-II Test B1).",
+    "limitations": "Applicable specifically to thin fuels (100\u2013400 \u00b5m) in opposed flow; does not extrapolate to thick fuel slabs where internal thermal storage sustains smoldering."
+  },
+  {
+    "id": "ev_olson_2017",
+    "title": "Microgravity Flammability Boundary for PMMA Rods in Axial Stagnation Flow",
+    "authors": "Sandra L. Olson, Paul V. Ferkul",
+    "journal": "Combustion and Flame, Vol. 181, pp. 112-124",
+    "year": 2017,
+    "doi": "10.1016/j.combustflame.2017.03.001",
+    "url": "https://doi.org/10.1016/j.combustflame.2017.03.001",
+    "category": "Rod Flammability & Toxicity",
+    "key_finding": "Thick PMMA rods exhibit an extended low-flow flammability boundary with severe incomplete combustion and carbon monoxide emission in vitiated oxygen atmospheres.",
+    "supports": "Provides direct theoretical and empirical backing for the 950 ppm toxic CO peak measured in Test O13a (1/2\" rod at 15.9% O\u2082).",
+    "limitations": "Does not prove chemical extinction mechanism for all plastic shapes; spatial pyrometry was limited to surface thermocouples."
+  },
+  {
+    "id": "ev_bass_summary",
+    "title": "Burning and Suppression of Solids - II (BASS-II) Final Summary Report",
+    "authors": "J. Marcum, Sandra L. Olson, Paul V. Ferkul",
+    "journal": "NASA Technical Memorandum, NASA/TM-20210011385, NTRS ID 20210011385",
+    "year": 2021,
+    "doi": "10.60555/4qc4-de67",
+    "url": "https://ntrs.nasa.gov/citations/20210011385",
+    "category": "Mission Safety Report",
+    "key_finding": "Comprehensive documentation of 129 space station combustion tests across 6 PIs. Microgravity ventilation promotes stable flame spread even at sub-atmospheric oxygen levels, while thick fuels present severe cabin toxic gas threats.",
+    "supports": "Official baseline ground-truth documentation for all BASS-II flight tests, run matrices, sensor calibrations, and crew observations in the MSG.",
+    "limitations": "Several video records lack millimetric scale markers; sensor timestamps in glovebox telemetry require discrete alignment."
+  },
+  {
+    "id": "ev_bhatt_2016",
+    "title": "Radiative, Thermal, and Kinetic Regimes of Opposed-Flow Flame Spread",
+    "authors": "Subrata Bhattacharjee, Aslihan Simsek, Fletcher J. Miller, Sandra L. Olson, Paul V. Ferkul",
+    "journal": "Proceedings of the Combustion Institute, Vol. 36(2), pp. 2963-2970",
+    "year": 2016,
+    "doi": "10.1016/j.proci.2016.06.025",
+    "url": "https://doi.org/10.1016/j.proci.2016.06.025",
+    "category": "Combustion Regimes",
+    "key_finding": "Mapped three distinct microgravity flame spread regimes: radiative (at very low airflow), thermal (classical spread), and kinetic (near blow-off).",
+    "supports": "Validates why flame spread rate first increases then plateaus as forced flow speed rises in low-gravity duct experiments.",
+    "limitations": "Model assumes 2D steady-state spread; edge heat losses on narrow samples (1 cm width) induce minor boundary deviations."
+  },
+  {
+    "id": "ev_tien_2016",
+    "title": "Concurrent Flame Growth, Spread, and Quenching over Composite Fabric Samples in Microgravity",
+    "authors": "Xiaoyang Zhao, Ya-Ting T. Liao, Michael C. Johnston, James S. T'ien, Paul V. Ferkul, Sandra L. Olson",
+    "journal": "Proceedings of the Combustion Institute, Vol. 36(2), pp. 2979-2986",
+    "year": 2016,
+    "doi": "10.1016/j.proci.2016.06.028",
+    "url": "https://doi.org/10.1016/j.proci.2016.06.028",
+    "category": "Fabric & Insulation Safety",
+    "key_finding": "Investigated flame growth and quenching on SIBAL fabric and composite sheets in low-velocity forced flows, detailing how airflow orientation governs flammability.",
+    "supports": "Direct scientific support for BASS-II T-series tests (T1\u2013T29) assessing spacecraft insulation fire safety.",
+    "limitations": "Applicable to concurrent and low-opposed flow; does not model turbulent or 3D swirling draft conditions."
+  },
+  {
+    "id": "ev_miller_2015",
+    "title": "Modeling and Analysis of Intermediate Thickness PMMA Sheets Burning in Microgravity Opposed Flow",
+    "authors": "T. J. Shah, Fletcher J. Miller, Sandra L. Olson, Indrek Wichman",
+    "journal": "Combustion and Flame / ResearchGate Publication 281871773",
+    "year": 2015,
+    "doi": "10.13140/RG.2.1.2829.4243",
+    "url": "https://www.researchgate.net/publication/281871773",
+    "category": "Intermediate Thickness Fuel",
+    "key_finding": "Thick PMMA slabs (1\u20135 mm) transition from thermally thin to thermally thick regimes, causing deep pyrolysis that traps heat and releases elevated levels of CO and hydrocarbons.",
+    "supports": "Explains why Test M5 exhibited massive CO\u2082 (>3.2%) and CO (>500 ppm) spikes compared to thin film tests.",
+    "limitations": "Numerical model assumed uniform surface regression; bubble formation and sputtering observed in video are not captured in 1D pyrolysis."
+  }
+]

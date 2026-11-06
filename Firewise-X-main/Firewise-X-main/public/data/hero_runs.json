@@ -1,0 +1,564 @@
+[
+  {
+    "id": "RUN-B1",
+    "test_id": "B1",
+    "title": "B1 \u2014 100 \u00b5m PMMA Film Forced Flow & Rapid Extinction",
+    "pi": "Subrata Bhattacharjee (San Diego State University)",
+    "material": "100 micron PMMA thin film (2 cm wide)",
+    "category": "PMMA Film",
+    "thickness_mm": 0.1,
+    "gmt": 50,
+    "date": "2014-02-19",
+    "flow_restrictor": 2,
+    "fan_display": "62",
+    "air_speed_nominal": "5 cm/s",
+    "initial_o2": 22.2,
+    "final_o2": 22.2,
+    "initial_co2": 0.44,
+    "final_co2": 0.44,
+    "initial_co_ppm": 0.0,
+    "final_co_ppm": 6.0,
+    "co_danger": "Low (<50 ppm)",
+    "outcome": "Ignition achieved; opposed-flow flame spread observed. Upon flow stoppage, rapid radiative extinction occurred due to lack of buoyancy-driven oxygen replenishment in microgravity.",
+    "video_url": "/videos/BASS_GMT50_SAMPLE_147_TEST_B1.mp4",
+    "has_video": true,
+    "telemetry": {
+      "time_s": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        57
+      ],
+      "o2": [
+        22.2,
+        22.2,
+        22.2,
+        22.2,
+        22.2,
+        22.2,
+        22.19,
+        22.18,
+        22.19,
+        22.2,
+        22.2,
+        22.2,
+        22.2
+      ],
+      "co2": [
+        0.44,
+        0.44,
+        0.44,
+        0.44,
+        0.441,
+        0.442,
+        0.443,
+        0.442,
+        0.441,
+        0.44,
+        0.44,
+        0.44,
+        0.44
+      ],
+      "co_ppm": [
+        0.0,
+        0.2,
+        0.5,
+        1.2,
+        2.8,
+        4.5,
+        5.8,
+        6.0,
+        5.9,
+        5.8,
+        5.8,
+        5.9,
+        6.0
+      ],
+      "airflow_cms": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        2.5,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "anomalies": [
+      {
+        "time_s": 25,
+        "channel": "co_ppm",
+        "type": "Rise",
+        "note": "CO rise detected upon ignition"
+      },
+      {
+        "time_s": 40,
+        "channel": "airflow_cms",
+        "type": "Step-down",
+        "note": "Flow restrictor ramp down initiated"
+      },
+      {
+        "time_s": 50,
+        "channel": "airflow_cms",
+        "type": "Extinction",
+        "note": "Critical velocity threshold reached; flame extinguished"
+      }
+    ],
+    "evidence_ids": [
+      "ev_bhatt_2015",
+      "ev_bass_summary",
+      "ev_bhatt_2016"
+    ]
+  },
+  {
+    "id": "RUN-M5",
+    "test_id": "M5",
+    "title": "M5 \u2014 3 mm PMMA Slab Two-Sided Unrestricted Burn",
+    "pi": "Fletcher J. Miller (San Diego State University)",
+    "material": "3 mm thick PMMA slab (2-sided burning, 2 cm wide)",
+    "category": "PMMA Slab",
+    "thickness_mm": 3.0,
+    "gmt": 51,
+    "date": "2014-02-20",
+    "flow_restrictor": 0,
+    "fan_display": "Variable (20, 13, 10, 8, 5)",
+    "air_speed_nominal": "5-20 cm/s",
+    "initial_o2": 22.2,
+    "final_o2": 19.0,
+    "initial_co2": 0.44,
+    "final_co2": 3.22,
+    "initial_co_ppm": 9.0,
+    "final_co_ppm": 550.0,
+    "co_danger": "Critical (500+ ppm)",
+    "outcome": "Massive two-sided combustion with intense heat release. Highest oxygen consumption in the dataset (3.2% drop) and toxic CO spike exceeding 500 ppm, demonstrating the extreme fire hazard of intermediate-thickness plastics in spacecraft.",
+    "video_url": null,
+    "has_video": false,
+    "telemetry": {
+      "time_s": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100,
+        120,
+        150,
+        180,
+        210,
+        240,
+        270,
+        300
+      ],
+      "o2": [
+        22.2,
+        22.0,
+        21.6,
+        21.1,
+        20.6,
+        20.2,
+        19.8,
+        19.5,
+        19.3,
+        19.1,
+        19.0,
+        19.0,
+        19.0
+      ],
+      "co2": [
+        0.44,
+        0.65,
+        0.98,
+        1.42,
+        1.88,
+        2.3,
+        2.65,
+        2.9,
+        3.05,
+        3.15,
+        3.2,
+        3.22,
+        3.22
+      ],
+      "co_ppm": [
+        9.0,
+        35.0,
+        85.0,
+        160.0,
+        245.0,
+        330.0,
+        410.0,
+        475.0,
+        510.0,
+        535.0,
+        545.0,
+        550.0,
+        550.0
+      ],
+      "airflow_cms": [
+        20.0,
+        18.0,
+        15.0,
+        13.0,
+        10.0,
+        10.0,
+        8.0,
+        8.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ]
+    },
+    "anomalies": [
+      {
+        "time_s": 40,
+        "channel": "o2",
+        "type": "Rapid Drop",
+        "note": "High combustion rate depleting oxygen"
+      },
+      {
+        "time_s": 80,
+        "channel": "co_ppm",
+        "type": "Hazard Alert",
+        "note": "CO crossed 200 ppm threshold"
+      },
+      {
+        "time_s": 180,
+        "channel": "co_ppm",
+        "type": "Critical Alert",
+        "note": "CO exceeded 500 ppm sensor limit"
+      }
+    ],
+    "evidence_ids": [
+      "ev_miller_2015",
+      "ev_bass_summary"
+    ]
+  },
+  {
+    "id": "RUN-O13A",
+    "test_id": "O13a",
+    "title": "O13a \u2014 1/2\" PMMA Clear Rod High Toxicity Incomplete Combustion",
+    "pi": "Sandra L. Olson (NASA Glenn Research Center)",
+    "material": "1/2\" (12.7 mm) clear PMMA cylinder rod",
+    "category": "PMMA Rod",
+    "thickness_mm": 12.7,
+    "gmt": 202,
+    "date": "2014-07-21",
+    "flow_restrictor": 2,
+    "fan_display": "1.3 - 0.31 pot",
+    "air_speed_nominal": "0-5 cm/s",
+    "initial_o2": 15.9,
+    "final_o2": 14.6,
+    "initial_co2": 0.91,
+    "final_co2": 1.85,
+    "initial_co_ppm": 389.0,
+    "final_co_ppm": 950.0,
+    "co_danger": "Critical (500+ ppm)",
+    "outcome": "Thick cylindrical geometry in vitiated (15.9% O\u2082) microgravity air resulted in prolonged smoldering and incomplete pyrolysis, generating 950 ppm of carbon monoxide \u2014 the highest recorded toxic gas exposure in BASS-II.",
+    "video_url": null,
+    "has_video": false,
+    "telemetry": {
+      "time_s": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        80,
+        100,
+        120,
+        140,
+        160,
+        180,
+        199
+      ],
+      "o2": [
+        15.9,
+        15.8,
+        15.6,
+        15.4,
+        15.2,
+        15.0,
+        14.9,
+        14.8,
+        14.7,
+        14.65,
+        14.6,
+        14.6
+      ],
+      "co2": [
+        0.91,
+        0.98,
+        1.1,
+        1.25,
+        1.4,
+        1.55,
+        1.68,
+        1.75,
+        1.8,
+        1.83,
+        1.85,
+        1.85
+      ],
+      "co_ppm": [
+        389.0,
+        430.0,
+        490.0,
+        560.0,
+        640.0,
+        725.0,
+        810.0,
+        880.0,
+        920.0,
+        940.0,
+        948.0,
+        950.0
+      ],
+      "airflow_cms": [
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.5,
+        1.0,
+        0.8,
+        0.5,
+        0.4,
+        0.3,
+        0.2,
+        0.0
+      ]
+    },
+    "anomalies": [
+      {
+        "time_s": 30,
+        "channel": "co_ppm",
+        "type": "Fatal Limit",
+        "note": "Pre-existing CO exacerbated past 500 ppm"
+      },
+      {
+        "time_s": 120,
+        "channel": "co_ppm",
+        "type": "Peak Spike",
+        "note": "Smoldering regime produced 950 ppm CO"
+      }
+    ],
+    "evidence_ids": [
+      "ev_olson_2017",
+      "ev_bass_summary"
+    ]
+  },
+  {
+    "id": "RUN-T22",
+    "test_id": "T22",
+    "title": "T22 \u2014 1 cm SIBAL Spacecraft Insulation Opposed Flow Spread",
+    "pi": "James S. T'ien (Case Western Reserve University)",
+    "material": "1 cm SIBAL fabric (silicone-treated insulation)",
+    "category": "SIBAL",
+    "thickness_mm": 0.5,
+    "gmt": 190,
+    "date": "2014-07-09",
+    "flow_restrictor": 2,
+    "fan_display": "3.4 - 1.7",
+    "air_speed_nominal": "5-10 cm/s",
+    "initial_o2": 17.1,
+    "final_o2": 17.0,
+    "initial_co2": 0.59,
+    "final_co2": 0.62,
+    "initial_co_ppm": 140.0,
+    "final_co_ppm": 162.0,
+    "co_danger": "Moderate (50-200 ppm)",
+    "outcome": "Steady opposed-flow flame spread over SIBAL composite fabric in reduced oxygen (17.1% O\u2082). Measured steady flame front propagation with moderate toxic byproduct production.",
+    "video_url": "/videos/BASS_GMT190_SAMPLE_146_TEST_T22.mp4",
+    "has_video": true,
+    "telemetry": {
+      "time_s": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        38
+      ],
+      "o2": [
+        17.1,
+        17.1,
+        17.08,
+        17.05,
+        17.03,
+        17.01,
+        17.0,
+        17.0,
+        17.0
+      ],
+      "co2": [
+        0.59,
+        0.592,
+        0.596,
+        0.601,
+        0.608,
+        0.613,
+        0.618,
+        0.62,
+        0.62
+      ],
+      "co_ppm": [
+        140.0,
+        142.0,
+        145.0,
+        149.0,
+        153.0,
+        157.0,
+        160.0,
+        162.0,
+        162.0
+      ],
+      "airflow_cms": [
+        10.0,
+        10.0,
+        10.0,
+        7.5,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ]
+    },
+    "anomalies": [
+      {
+        "time_s": 15,
+        "channel": "airflow_cms",
+        "type": "Velocity Shift",
+        "note": "Flow transitioned from 10 to 5 cm/s"
+      },
+      {
+        "time_s": 25,
+        "channel": "co_ppm",
+        "type": "Steady Evolution",
+        "note": "Linear combustion gas accumulation"
+      }
+    ],
+    "evidence_ids": [
+      "ev_tien_2016",
+      "ev_bass_summary"
+    ]
+  },
+  {
+    "id": "RUN-F1",
+    "test_id": "F1",
+    "title": "F1 \u2014 Nomex Space Fabric Suppression & Flammability Check",
+    "pi": "Paul V. Ferkul (NASA Glenn Research Center)",
+    "material": "Nomex natural III aramid fabric (flight suit grade)",
+    "category": "Nomex Fabric",
+    "thickness_mm": 0.4,
+    "gmt": 50,
+    "date": "2014-02-19",
+    "flow_restrictor": 2,
+    "fan_display": "82",
+    "air_speed_nominal": "9.5 cm/s",
+    "initial_o2": 22.2,
+    "final_o2": 22.2,
+    "initial_co2": 0.46,
+    "final_co2": 0.45,
+    "initial_co_ppm": 0.0,
+    "final_co_ppm": 2.0,
+    "co_danger": "Low (<50 ppm)",
+    "outcome": "Nomex aramid fabric exhibited high fire resistance. Igniter provoked localized charring but sustained flame spread failed, leaving ambient O\u2082 and toxic gases virtually unchanged.",
+    "video_url": null,
+    "has_video": false,
+    "telemetry": {
+      "time_s": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100,
+        130,
+        160,
+        190,
+        208
+      ],
+      "o2": [
+        22.2,
+        22.2,
+        22.2,
+        22.2,
+        22.2,
+        22.2,
+        22.2,
+        22.2,
+        22.2,
+        22.2
+      ],
+      "co2": [
+        0.46,
+        0.46,
+        0.46,
+        0.46,
+        0.458,
+        0.455,
+        0.452,
+        0.45,
+        0.45,
+        0.45
+      ],
+      "co_ppm": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        1.8,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "airflow_cms": [
+        9.5,
+        9.5,
+        9.5,
+        9.5,
+        9.5,
+        9.5,
+        9.5,
+        9.5,
+        9.5,
+        9.5
+      ]
+    },
+    "anomalies": [
+      {
+        "time_s": 40,
+        "channel": "co_ppm",
+        "type": "Trace Emission",
+        "note": "Minor pyrolysis gases from hot wire igniter"
+      }
+    ],
+    "evidence_ids": [
+      "ev_bass_summary",
+      "ev_olson_2017"
+    ]
+  }
+]
